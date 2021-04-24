@@ -13,7 +13,7 @@
     <% for( var i = 0; i < task.length; i++){ %>
         <li><input type="checkbox" name="check" value="<%= task[i] %>" /> <%= task[i] %> </li>
     <% } %>
-<button formaction="/removetask" type="submit"> Remove </button>
+<button formaction="/removetask" type="submit"> Complete </button>
 </form>
 <h2> Completed task </h2>
     <% for(var i = 0; i < complete.length; i++){ %>
